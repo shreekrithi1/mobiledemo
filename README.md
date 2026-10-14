@@ -9,4 +9,4 @@ Self-contained demo pages for MobileHeal, the self-healing mobile delivery platf
 
 Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → Deploy from branch → `main` / root) to share a link.
 
-Everything shown runs in the browser with simulated data; no backend is needed.
+The pages are encrypted (AES-256-GCM) and open only with the PIN you were given. Everything shown runs in the browser with simulated data; no backend is needed.
