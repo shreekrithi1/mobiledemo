@@ -17,7 +17,7 @@ Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → D
 
 **To:** Mobile team (iOS, Android, QA, release, product and engineering leads)
 **Subject:** Rexi demo — self-healing mobile delivery, from crash to approved release
-**Duration:** 30 minutes (≈19 min guided demo + Q&A)
+**Duration:** 30 minutes (≈20 min guided demo + Q&A)
 **Where:** Teams / Meet link · share screen with `index.html`
 
 Hi team,
@@ -40,14 +40,15 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 | 8 | Delivery — live intake, classification and ownership | 06:26 | 07:46 | 01:20 |
 | 9 | Firebase crash in Autopilot — crash to human gate | 07:46 | 09:58 | 02:12 |
 | 10 | Rexi update — fixed, tested, awaiting approval | 09:58 | 10:07 | 00:09 |
-| 11 | Mission control — live, interactive use cases | 10:07 | 15:07 | 05:00 |
-| 12 | API auto-healing | 15:07 | 15:55 | 00:48 |
-| 13 | Data integrity — healed by asking the user | 15:55 | 16:28 | 00:33 |
-| 14 | Full regression in Autopilot | 16:28 | 17:26 | 00:58 |
-| 15 | Inside Rexi — the critical screens | 17:26 | 18:47 | 01:21 |
-| 16 | Available on macOS, Windows and in your IDE | 18:47 | 19:12 | 00:25 |
-| 17 | Thank you — celebration and closing note | 19:12 | 19:25 | 00:13 |
-| — | Q&A and discussion | 19:25 | 30:00 | 10:35 |
+| 11 | Fix confidence — all ten agents score; reject with feedback and rerun | 10:07 | 10:47 | 00:40 |
+| 12 | Mission control — live, interactive use cases | 10:47 | 15:47 | 05:00 |
+| 13 | API auto-healing | 15:47 | 16:35 | 00:48 |
+| 14 | Data integrity — healed by asking the user | 16:35 | 17:08 | 00:33 |
+| 15 | Full regression in Autopilot | 17:08 | 18:06 | 00:58 |
+| 16 | Inside Rexi — the critical screens | 18:06 | 19:27 | 01:21 |
+| 17 | Available on macOS, Windows and in your IDE | 19:27 | 19:52 | 00:25 |
+| 18 | Thank you — celebration and closing note | 19:52 | 20:05 | 00:13 |
+| — | Q&A and discussion | 20:05 | 30:00 | 09:55 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
