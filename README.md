@@ -32,23 +32,22 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 |---|---|---|---|---|
 | 1 | Welcome — session begins in 60 seconds | 00:00 | 01:00 | 01:00 |
 | 2 | Opening — opportunities we see | 01:00 | 02:30 | 01:30 |
-| 3 | Meet Rexi — your host, Elsa | 02:30 | 02:39 | 00:09 |
-| 4 | A typical enterprise — many tools, many sources of status | 02:39 | 03:41 | 01:02 |
-| 5 | The problems we're solving — and how | 03:41 | 04:22 | 00:41 |
-| 6 | Architecture — tap Save, iPhone to database | 04:22 | 05:13 | 00:51 |
-| 7 | Architecture — crash, self-heal and release | 05:13 | 06:26 | 01:13 |
-| 8 | Delivery — live intake, classification and ownership | 06:26 | 07:46 | 01:20 |
-| 9 | Firebase crash in Autopilot — crash to human gate | 07:46 | 09:58 | 02:12 |
-| 10 | Rexi update — fixed, tested, awaiting approval | 09:58 | 10:07 | 00:09 |
-| 11 | Fix confidence — all ten agents score; reject with feedback and rerun | 10:07 | 10:47 | 00:40 |
-| 12 | Mission control — live, interactive use cases | 10:47 | 15:47 | 05:00 |
-| 13 | API auto-healing | 15:47 | 16:35 | 00:48 |
-| 14 | Data integrity — healed by asking the user | 16:35 | 17:08 | 00:33 |
-| 15 | Full regression in Autopilot | 17:08 | 18:06 | 00:58 |
-| 16 | Inside Rexi — the critical screens | 18:06 | 19:27 | 01:21 |
-| 17 | Available on macOS, Windows and in your IDE | 19:27 | 19:52 | 00:25 |
-| 18 | Thank you — celebration and closing note | 19:52 | 20:05 | 00:13 |
-| — | Q&A and discussion | 20:05 | 30:00 | 09:55 |
+| 3 | A typical enterprise — many tools, many sources of status | 02:30 | 03:32 | 01:02 |
+| 4 | The problems we're solving — and how | 03:32 | 04:13 | 00:41 |
+| 5 | Architecture — tap Save, iPhone to database | 04:13 | 05:04 | 00:51 |
+| 6 | Architecture — crash, self-heal and release | 05:04 | 06:17 | 01:13 |
+| 7 | Delivery — live intake, classification and ownership | 06:17 | 07:37 | 01:20 |
+| 8 | Firebase crash in Autopilot — crash to human gate | 07:37 | 09:49 | 02:12 |
+| 9 | Rexi update — fixed, tested, awaiting approval | 09:49 | 09:58 | 00:09 |
+| 10 | Fix confidence — all ten agents score; reject with feedback and rerun | 09:58 | 10:38 | 00:40 |
+| 11 | Mission control — live, interactive use cases | 10:38 | 15:38 | 05:00 |
+| 12 | API auto-healing | 15:38 | 16:26 | 00:48 |
+| 13 | Data integrity — healed by asking the user | 16:26 | 16:59 | 00:33 |
+| 14 | Full regression in Autopilot | 16:59 | 17:57 | 00:58 |
+| 15 | Inside Rexi — the critical screens | 17:57 | 19:18 | 01:21 |
+| 16 | Available on macOS, Windows and in your IDE | 19:18 | 19:43 | 00:25 |
+| 17 | Thank you — celebration and closing note | 19:43 | 19:56 | 00:13 |
+| — | Q&A and discussion | 19:56 | 30:00 | 10:04 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
