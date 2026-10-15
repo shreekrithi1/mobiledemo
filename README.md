@@ -17,7 +17,7 @@ Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → D
 
 **To:** Mobile team (iOS, Android, QA, release, product and engineering leads)
 **Subject:** Rexi demo — self-healing mobile delivery, from crash to approved release
-**Duration:** 30 minutes (≈18 min guided demo + Q&A)
+**Duration:** 30 minutes (≈19 min guided demo + Q&A)
 **Where:** Teams / Meet link · share screen with `index.html`
 
 Hi team,
@@ -46,7 +46,8 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 | 14 | Full regression in Autopilot | 15:58 | 16:56 | 00:58 |
 | 15 | Inside Rexi — the critical screens | 16:56 | 18:17 | 01:21 |
 | 16 | Available on macOS, Windows and in your IDE | 18:17 | 18:42 | 00:25 |
-| — | Q&A and discussion | 18:42 | 30:00 | 11:18 |
+| 17 | Thank you — celebration and closing note | 18:42 | 18:55 | 00:13 |
+| — | Q&A and discussion | 18:55 | 30:00 | 11:05 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
