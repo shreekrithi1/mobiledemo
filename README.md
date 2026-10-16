@@ -7,6 +7,10 @@ Self-contained demo pages for **Rexi**, self-healing mobile delivery — a passi
 | [`index.html`](index.html) | The full guided demo, with a 60-second welcome countdown and a "Demo ends in" timer for the whole run. |
 | [`demo.html`](demo.html) | Mission control on its own — pick a use case and press Play. |
 
+**Rexi IDE (OpenCode) for macOS and Windows:** [`ide.html`](ide.html) — download [`Rexi-IDE-macOS.zip`](Rexi-IDE-macOS.zip) or [`Rexi-IDE-Windows.zip`](Rexi-IDE-Windows.zip).
+
+**Key takeaways video (53 s):** [`rexi-takeaways.mp4`](rexi-takeaways.mp4)
+
 Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → Deploy from branch → `main` / root) to share a link. The pages are encrypted (AES-256-GCM) and open only with the PIN you were given. Everything runs in the browser with simulated data — no backend needed.
 
 > **A look ahead.** The scenarios shown are entirely fictional — an imagined glimpse of how mobile delivery could work in the future. People, conversations and outcomes are illustrative only.
@@ -17,7 +21,7 @@ Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → D
 
 **To:** Mobile team (iOS, Android, QA, release, product and engineering leads)
 **Subject:** Rexi demo — self-healing mobile delivery, from crash to approved release
-**Duration:** 30 minutes (≈20 min guided demo + Q&A)
+**Duration:** 30 minutes (≈21 min guided demo + Q&A)
 **Where:** Teams / Meet link · share screen with `index.html`
 
 Hi team,
@@ -30,24 +34,25 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 
 | # | Topic | Start | End | Length |
 |---|---|---|---|---|
-| 1 | Welcome — session begins in 60 seconds | 00:00 | 01:00 | 01:00 |
-| 2 | Opening — opportunities we see | 01:00 | 02:30 | 01:30 |
-| 3 | A typical enterprise — many tools, many sources of status | 02:30 | 03:32 | 01:02 |
+| 1 | Rexi — the session begins shortly | 00:00 | 01:00 | 01:00 |
+| 2 | Rexi — the experience | 01:00 | 02:30 | 01:30 |
+| 3 | A typical enterprise: many tools, many sources of status | 02:30 | 03:32 | 01:02 |
 | 4 | The problems we're solving — and how | 03:32 | 04:13 | 00:41 |
-| 5 | Architecture — tap Save, iPhone to database | 04:13 | 05:04 | 00:51 |
-| 6 | Architecture — crash, self-heal and release | 05:04 | 06:17 | 01:13 |
-| 7 | Delivery — live intake, classification and ownership | 06:17 | 07:37 | 01:20 |
-| 8 | Firebase crash in Autopilot — crash to human gate | 07:37 | 09:49 | 02:12 |
-| 9 | Rexi update — fixed, tested, awaiting approval | 09:49 | 09:58 | 00:09 |
-| 10 | Fix confidence — all ten agents score; reject with feedback and rerun | 09:58 | 10:38 | 00:40 |
-| 11 | Mission control — live, interactive use cases | 10:38 | 15:38 | 05:00 |
+| 5 | Tap Save — from the iPhone to the database and back | 04:13 | 05:04 | 00:51 |
+| 6 | Tap Save — crash, self-heal and release | 05:04 | 06:17 | 01:13 |
+| 7 | Delivery: issues arrive, get classified and land with an owner | 06:17 | 07:37 | 01:20 |
+| 8 | Firebase crash in Autopilot — no clicks until the human gate | 07:37 | 09:49 | 02:12 |
+| 9 | Every agent scores the fix — and you can send it back | 09:49 | 10:29 | 00:40 |
+| 10 | Rexi update — fixed, tested and waiting for approval | 10:29 | 10:38 | 00:09 |
+| 11 | Mission control — pick a use case and press Play | 10:38 | 15:38 | 05:00 |
 | 12 | API auto-healing | 15:38 | 16:26 | 00:48 |
-| 13 | Data integrity — healed by asking the user | 16:26 | 16:59 | 00:33 |
-| 14 | Full regression in Autopilot | 16:59 | 17:57 | 00:58 |
-| 15 | Inside Rexi — the critical screens | 17:57 | 19:18 | 01:21 |
-| 16 | Available on macOS, Windows and in your IDE | 19:18 | 19:43 | 00:25 |
-| 17 | Thank you — celebration and closing note | 19:43 | 19:56 | 00:13 |
-| — | Q&A and discussion | 19:56 | 30:00 | 10:04 |
+| 13 | Missing data, healed by asking the user | 16:26 | 16:59 | 00:33 |
+| 14 | Full regression in Autopilot, on every device | 16:59 | 17:57 | 00:58 |
+| 15 | Inside Rexi — the critical screens | 17:57 | 19:47 | 01:50 |
+| 16 | Available on macOS, Windows and in your IDE | 19:47 | 20:12 | 00:25 |
+| 17 | Key takeaways — what to remember | 20:12 | 21:05 | 00:53 |
+| 18 | Thank you, Mobile team | 21:05 | 21:30 | 00:25 |
+| — | Q&A and discussion | 21:30 | 30:00 | 08:30 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
