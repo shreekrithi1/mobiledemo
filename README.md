@@ -9,6 +9,8 @@ Self-contained demo pages for **Rexi**, self-healing mobile delivery — a passi
 
 **Rexi IDE (OpenCode) for macOS and Windows:** [`ide.html`](ide.html) — download [`Rexi-IDE-macOS.zip`](Rexi-IDE-macOS.zip) or [`Rexi-IDE-Windows.zip`](Rexi-IDE-Windows.zip).
 
+**Rexi for Chrome:** [`Rexi-Chrome.zip`](Rexi-Chrome.zip) — unzip, open `chrome://extensions`, turn on Developer mode, Load unpacked.
+
 **Key takeaways video (53 s):** [`rexi-takeaways.mp4`](rexi-takeaways.mp4)
 
 Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → Deploy from branch → `main` / root) to share a link. The pages are encrypted (AES-256-GCM) and open only with the PIN you were given. Everything runs in the browser with simulated data — no backend needed.
@@ -43,16 +45,16 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 | 7 | Delivery: issues arrive, get classified and land with an owner | 06:17 | 07:37 | 01:20 |
 | 8 | Firebase crash in Autopilot — no clicks until the human gate | 07:37 | 09:49 | 02:12 |
 | 9 | Every agent scores the fix — and you can send it back | 09:49 | 10:29 | 00:40 |
-| 10 | Rexi update — fixed, tested and waiting for approval | 10:29 | 10:38 | 00:09 |
-| 11 | Mission control — pick a use case and press Play | 10:38 | 15:38 | 05:00 |
-| 12 | API auto-healing | 15:38 | 16:26 | 00:48 |
-| 13 | Missing data, healed by asking the user | 16:26 | 16:59 | 00:33 |
-| 14 | Full regression in Autopilot, on every device | 16:59 | 17:57 | 00:58 |
-| 15 | Inside Rexi — the critical screens | 17:57 | 19:47 | 01:50 |
-| 16 | Available on macOS, Windows and in your IDE | 19:47 | 20:12 | 00:25 |
-| 17 | Key takeaways — what to remember | 20:12 | 21:05 | 00:53 |
-| 18 | Thank you, Mobile team | 21:05 | 21:30 | 00:25 |
-| — | Q&A and discussion | 21:30 | 30:00 | 08:30 |
+| 10 | Rexi update — fixed, tested and waiting for approval | 10:29 | 10:46 | 00:17 |
+| 11 | Mission control — pick a use case and press Play | 10:46 | 15:46 | 05:00 |
+| 12 | API auto-healing | 15:46 | 16:34 | 00:48 |
+| 13 | Missing data, healed by asking the user | 16:34 | 17:07 | 00:33 |
+| 14 | Full regression in Autopilot, on every device | 17:07 | 18:05 | 00:58 |
+| 15 | Inside Rexi — the critical screens | 18:05 | 19:55 | 01:50 |
+| 16 | Available on macOS, Windows, Chrome and in your IDE | 19:55 | 20:24 | 00:29 |
+| 17 | Key takeaways — what to remember | 20:24 | 21:17 | 00:53 |
+| 18 | Thank you, Mobile team | 21:17 | 21:42 | 00:25 |
+| — | Q&A and discussion | 21:42 | 30:00 | 08:18 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
