@@ -23,7 +23,7 @@ Open `index.html` in a browser, or enable GitHub Pages (Settings → Pages → D
 
 **To:** Mobile team (iOS, Android, QA, release, product and engineering leads)
 **Subject:** Rexi demo — self-healing mobile delivery, from crash to approved release
-**Duration:** 30 minutes (≈21 min guided demo + Q&A)
+**Duration:** 30 minutes (≈23 min demo + Q&A)
 **Where:** Teams / Meet link · share screen with `index.html`
 
 Hi team,
@@ -37,24 +37,25 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 | # | Topic | Start | End | Length |
 |---|---|---|---|---|
 | 1 | Rexi — the session begins shortly | 00:00 | 01:00 | 01:00 |
-| 2 | Rexi — the experience | 01:00 | 02:30 | 01:30 |
-| 3 | A typical enterprise: many tools, many sources of status | 02:30 | 03:32 | 01:02 |
-| 4 | The problems we're solving — and how | 03:32 | 04:13 | 00:41 |
-| 5 | Tap Save — from the iPhone to the database and back | 04:13 | 05:04 | 00:51 |
-| 6 | Tap Save — crash, self-heal and release | 05:04 | 06:17 | 01:13 |
-| 7 | Delivery: issues arrive, get classified and land with an owner | 06:17 | 07:37 | 01:20 |
-| 8 | Firebase crash in Autopilot — no clicks until the human gate | 07:37 | 09:49 | 02:12 |
-| 9 | Every agent scores the fix — and you can send it back | 09:49 | 10:29 | 00:40 |
-| 10 | Rexi update — fixed, tested and waiting for approval | 10:29 | 10:46 | 00:17 |
-| 11 | Mission control — pick a use case and press Play | 10:46 | 15:46 | 05:00 |
-| 12 | API auto-healing | 15:46 | 16:34 | 00:48 |
-| 13 | Missing data, healed by asking the user | 16:34 | 17:07 | 00:33 |
-| 14 | Full regression in Autopilot, on every device | 17:07 | 18:05 | 00:58 |
-| 15 | Inside Rexi — the critical screens | 18:05 | 19:55 | 01:50 |
-| 16 | Available on macOS, Windows, Chrome and in your IDE | 19:55 | 20:24 | 00:29 |
-| 17 | Key takeaways — what to remember | 20:24 | 21:17 | 00:53 |
-| 18 | Thank you, Mobile team | 21:17 | 21:42 | 00:25 |
-| — | Q&A and discussion | 21:42 | 30:00 | 08:18 |
+| 2 | Change of plan — Elsa takes the demo | 01:00 | 01:31 | 00:31 |
+| 3 | A typical enterprise: many tools, many sources of status | 01:31 | 02:33 | 01:02 |
+| 4 | The problems we're solving — and how | 02:33 | 03:14 | 00:41 |
+| 5 | Delivery: issues arrive, get classified and land with an owner | 03:14 | 04:34 | 01:20 |
+| 6 | Tap Save — from the iPhone to the database and back | 04:34 | 05:25 | 00:51 |
+| 7 | Tap Save — crash, self-heal and release | 05:25 | 06:37 | 01:13 |
+| 8 | Every agent scores the fix — and you can send it back | 06:37 | 07:17 | 00:40 |
+| 9 | Mission control — pick a use case and press Play (live, ≈5 min) | 07:17 | 12:17 | 05:00 |
+| 10 | From merge to the App Store — with a person at the gate | 12:17 | 13:21 | 01:04 |
+| 11 | Every token counted — and every fix paid back | 13:21 | 14:05 | 00:43 |
+| 12 | API auto-healing | 14:05 | 14:52 | 00:48 |
+| 13 | Missing data, healed by asking the user | 14:52 | 15:25 | 00:33 |
+| 14 | Full regression in Autopilot, on every device | 15:25 | 16:24 | 00:58 |
+| 15 | Inside Rexi — the critical screens | 16:24 | 18:13 | 01:50 |
+| 16 | Available on macOS, Windows, Chrome and in your IDE | 18:13 | 18:42 | 00:29 |
+| 17 | Key takeaways — what to remember | 18:42 | 19:36 | 00:53 |
+| 18 | Thank you, Mobile team | 19:36 | 20:05 | 00:29 |
+| 19 | Rexi 2.0 — Elsa is learning (first look) | 20:05 | 23:25 | 03:20 |
+| — | Q&A and discussion | 23:25 | 30:00 | 06:35 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
