@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Rexi IDE</title>
-<meta name="description" content="Rexi for OpenCode — the Rexi IDE for macOS and Windows.">
+<meta name="description" content="The Rexi IDE for macOS and Windows — one command to launch.">
 <style>
 :root{--bg:#f6f8fb;--card:#fff;--ink:#0f172a;--mu:#475569;--ln:#e2e8f0;--ac:#0f766e;--ac2:#14b8a6;--gold:#b8860b;--term:#0b1220}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1220;--card:#111a2e;--ink:#e6edf3;--mu:#9aa4b2;--ln:#26324d;--ac:#2dd4bf;--ac2:#5eead4;--gold:#e9c46a}}
@@ -31,52 +31,44 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
 @media(max-width:760px){.hero,.os{grid-template-columns:1fr}}
 </style></head><body><div class="w">
 <section class="hero"><div>
-  <div class="brand"><span class="lg"><svg viewBox="0 0 64 64"><path d="M14 44c0-14 8-26 24-26 10 0 16 6 16 13 0 6-5 9-11 9h-6l-3 4H22l-2 6h-6z" fill="#fff"/><circle cx="41" cy="27" r="3.2" fill="#0f766e"/><path d="M26 18l3-6 3 6 3-7 3 7" fill="none" stroke="#fde68a" stroke-width="3" stroke-linejoin="round"/></svg></span><span><b>Rexi IDE</b><small>Rexi for OpenCode · macOS · Windows</small></span></div>
+  <div class="brand"><span class="lg"><svg viewBox="0 0 64 64"><path d="M14 44c0-14 8-26 24-26 10 0 16 6 16 13 0 6-5 9-11 9h-6l-3 4H22l-2 6h-6z" fill="#fff"/><circle cx="41" cy="27" r="3.2" fill="#0f766e"/><path d="M26 18l3-6 3 6 3-7 3 7" fill="none" stroke="#fde68a" stroke-width="3" stroke-linejoin="round"/></svg></span><span><b>Rexi IDE</b><small>macOS · Windows</small></span></div>
   <h1>Rexi, right where you <em>write the code</em>.</h1>
-  <p class="lead">See every Autopilot fix and its confidence from all ten agents, ask why, reject with feedback, rerun and approve — without leaving your editor. Built on <a href="https://opencode.ai">OpenCode</a>, the open-source AI coding agent.</p>
+  <p class="lead">See every Autopilot fix and its confidence from all ten agents, ask why, reject with feedback, rerun and approve — without leaving your editor.</p>
   <div class="dl">
-    <a class="btn pri" href="Rexi-IDE-macOS.zip" download><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.6-1.9-1.5-.2-3 .9-3.7.9-.8 0-2-.9-3.2-.9-1.7 0-3.2 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.1-1.2 2.9-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.3-3.8zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span>Download for macOS<small>Apple silicon &amp; Intel · zip</small></span></a>
-    <a class="btn" href="Rexi-IDE-Windows.zip" download><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg><span>Download for Windows<small>Windows 10 &amp; 11 · zip</small></span></a>
+    <a class="btn pri" href="Rexi-IDE.dmg" download><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.6-1.9-1.5-.2-3 .9-3.7.9-.8 0-2-.9-3.2-.9-1.7 0-3.2 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.1-1.2 2.9-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.4-1-2.3-3.8zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span>Download for macOS<small>Apple silicon &amp; Intel · .dmg</small></span></a>
+    <a class="btn" href="Rexi-IDE-Setup.exe" download><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10.5 4.4v7.1H3zm8.5-1.2L21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zm8.5 0H21V21l-9.5-1.3z"/></svg><span>Download for Windows<small>Windows 10 &amp; 11 · .exe</small></span></a>
   </div>
 </div>
-<div class="term"><div class="bar"><i></i><i></i><i></i></div><pre><span class="c2">~/mobile-app ›</span> opencode
-<span class="c1">rexi</span> <span class="c2">›</span> /rexi-fixes
+<div class="term"><div class="bar"><i></i><i></i><i></i></div><pre><span class="c2">~/Downloads/multirepo ›</span> ./start.command --ide
+<span class="c1">▸</span> Starting the Rexi web portal on http://localhost:8000 …
+<span class="c1">▸</span> Web portal is up
+<span class="c1">▸</span> Opening <span class="c3">Rexi-IDE.dmg</span> …
+<span class="c4">✓</span> Launching Rexi IDE on ~/Downloads/multirepo
 
-<span class="c3">4 Autopilot fixes · average confidence 86.8% · floor 80%</span>
- <span class="c4">92%</span> INC-2042  Null phone crashes iOS checkout   <span class="c4">ready</span>
- <span class="c4">91%</span> INC-2041  Divide-by-zero on Profile save   <span class="c4">ready</span>
- <span class="c4">88%</span> CHG-3107  Email change — verify address    <span class="c4">ready</span>
- <span class="c5">76%</span> INC-2043  API retries flood orders service <span class="c5">review</span>
+<span class="c2">C:\multirepo ›</span> start.cmd --ide
+<span class="c1">▸</span> Launching <span class="c3">Rexi-IDE-Setup.exe</span> …
+<span class="c4">✓</span> Rexi IDE is starting</pre></div></section>
 
-<span class="c1">rexi</span> <span class="c2">›</span> /rexi-why INC-2043
- Lowest: <span class="c5">QA 52%</span> — no test for the timeout path.
- Cheapest wins: add a retry test · confirm root cause.
-
-<span class="c1">rexi</span> <span class="c2">›</span> /rexi-reject INC-2043
- <span class="c2">Feedback sent to all 10 agents · rerun → </span><span class="c3">79%</span></pre></div></section>
-
-<h2>What's inside</h2><p class="sub">Added through OpenCode's own extension points — no fork to maintain, OpenCode updates keep working.</p>
+<h2>What's inside</h2><p class="sub">Everything you need to act on Autopilot fixes, next to your code.</p>
 <div class="grid">
   <div class="card" style="--k:#0f766e"><h3>Rexi agent</h3><p>Explains every agent's score, drafts feedback, and helps you reject, rerun or approve. It always asks before deciding.</p></div>
-  <div class="card" style="--k:#7c3aed"><h3>Rexi reviewer</h3><p><code>@rexi-reviewer</code> checks your local diff the way Rexi's QA and Security agents will, before you push.</p></div>
-  <div class="card" style="--k:#2563eb"><h3>Slash commands</h3><p><code>/rexi-fixes</code> <code>/rexi-why</code> <code>/rexi-reject</code> <code>/rexi-rerun</code> <code>/rexi-approve</code> <code>/rexi-status</code></p></div>
-  <div class="card" style="--k:#ea580c"><h3>Rexi tools (MCP)</h3><p>Eight tools over your Rexi server: fixes, scores, feedback, approvals, governance, redaction and the pause switch.</p></div>
+  <div class="card" style="--k:#7c3aed"><h3>Rexi reviewer</h3><p>Checks your local diff the way Rexi's QA and Security agents will, before you push.</p></div>
+  <div class="card" style="--k:#2563eb"><h3>Fix inbox</h3><p>Every Autopilot fix with its confidence; open one to see why, reject, rerun or approve.</p></div>
+  <div class="card" style="--k:#ea580c"><h3>Connected to Rexi</h3><p>Talks to your Rexi server for fixes, scores, feedback, approvals, governance, redaction and the pause switch.</p></div>
   <div class="card" style="--k:#b8860b"><h3>Rexi theme</h3><p>Teal, gold and night-navy, matching the Rexi app and the demo.</p></div>
   <div class="card" style="--k:#16a34a"><h3>Safe by default</h3><p>Never approves or pauses without your yes. Feedback is redacted. Releases still need a named approver.</p></div>
 </div>
 
-<h2>Install in two minutes</h2>
+<h2>Launch with one command</h2><p class="sub">Run it from the project folder. It opens the Rexi IDE, or its installer the first time. On macOS it also starts the Rexi web portal.</p>
 <div class="os">
   <div class="steps">
-    <div class="card"><div><h3>macOS</h3><p>Unzip <b>Rexi-IDE-macOS.zip</b>, then in Terminal:<br><code>cd Rexi-IDE-macOS &amp;&amp; ./install-mac.sh</code></p></div></div>
-    <div class="card"><div><h3>Open a project</h3><p><code>opencode</code>, press <b>Tab</b> to pick the Rexi agent, then <code>/rexi-fixes</code>.</p></div></div>
+    <div class="card"><div><h3>macOS</h3><p>In Terminal:<br><code>./start.command --ide</code></p><p style="margin-top:6px">Opens <b>Rexi IDE.app</b> if it's installed; otherwise opens <b>Rexi-IDE.dmg</b> and launches the app from it.</p></div></div>
   </div>
   <div class="steps">
-    <div class="card"><div><h3>Windows</h3><p>Unzip <b>Rexi-IDE-Windows.zip</b>, then in PowerShell:<br><code>powershell -ExecutionPolicy Bypass -File .\install-windows.ps1</code></p></div></div>
-    <div class="card"><div><h3>Open a project</h3><p><code>opencode</code>, press <b>Tab</b> to pick the Rexi agent, then <code>/rexi-fixes</code>.</p></div></div>
+    <div class="card"><div><h3>Windows</h3><p>In Command Prompt or PowerShell:<br><code>start.cmd --ide</code></p><p style="margin-top:6px">Opens <b>Rexi IDE</b> if it's installed; otherwise runs <b>Rexi-IDE-Setup.exe</b>.</p></div></div>
   </div>
 </div>
-<p class="sub" style="margin-top:14px">The installer adds OpenCode if it's missing (Homebrew or npm on macOS; npm or Scoop on Windows), copies the Rexi agents, tools and theme, and asks for your Rexi server URL. It never overwrites your existing OpenCode settings. Needs Python 3.</p>
+<p class="sub" style="margin-top:14px">The script looks for the installer in <code>Downloads/mobiledemo</code>, <code>Downloads</code> and the project's <code>dist</code> folder. To use a different file, set <code>REXI_IDE_DMG</code> (macOS) or <code>REXI_IDE_EXE</code> (Windows) to its path.</p>
 
-<p class="note">Rexi is a passion project. OpenCode is an independent open-source project (MIT licence); this pack only adds configuration, agents, a theme and an MCP tool server. The terminal shown above is illustrative.</p>
+<p class="note">Rexi is a passion project. The terminal shown above is illustrative.</p>
 </div></body></html>
