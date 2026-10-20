@@ -34,6 +34,9 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
 .next{margin-top:16px;padding:14px 16px;border-radius:12px;background:var(--card);border:1px solid var(--ln);border-left:4px solid var(--ac);font-size:14.5px}
 .next b{display:block;margin-bottom:6px}.next ol{margin:0;padding-left:20px;color:var(--mu)}.next li{margin:3px 0}.next.err{border-left-color:#dc2626}
 .btn.me{background:linear-gradient(135deg,#0f766e,#14b8a6);color:#fff;border:0}
+.one{margin:48px 0}.one .sub{color:var(--mu);margin:4px 0 16px}.cmd{position:relative;margin:12px 0;padding:14px 16px;border-radius:12px;background:#0b1220;color:#e5e7eb}
+.cmd b{display:block;font-size:12.5px;color:#94a3b8;margin-bottom:6px}.cmd pre{margin:0;white-space:pre-wrap;word-break:break-all;font:13.5px ui-monospace,Menlo,monospace;padding-right:64px}
+.cp{position:absolute;top:12px;right:12px;padding:5px 10px;border:0;border-radius:7px;background:#1f2a44;color:#e5e7eb;cursor:pointer;font-size:12.5px}
 </style></head><body><div class="w">
 <section class="hero"><div>
   <div class="brand"><span class="lg"><svg viewBox="0 0 64 64"><path d="M14 44c0-14 8-26 24-26 10 0 16 6 16 13 0 6-5 9-11 9h-6l-3 4H22l-2 6h-6z" fill="#fff"/><circle cx="41" cy="27" r="3.2" fill="#0f766e"/><path d="M26 18l3-6 3 6 3-7 3 7" fill="none" stroke="#fde68a" stroke-width="3" stroke-linejoin="round"/></svg></span><span><b>Rexi IDE</b><small>macOS · Windows</small></span></div>
@@ -46,15 +49,11 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   <p class="open-ln"><a href="rexi-ide://open" id="open-app">Already installed? Open Rexi IDE →</a></p>
   <div class="next" id="next" hidden role="status" aria-live="polite"><b id="next-h"></b><ol id="next-l"></ol></div>
 </div>
-<div class="term"><div class="bar"><i></i><i></i><i></i></div><pre><span class="c2">~/Downloads/multirepo ›</span> ./start.command --ide
-<span class="c1">▸</span> Starting the Rexi web portal on http://localhost:8000 …
-<span class="c1">▸</span> Web portal is up
-<span class="c1">▸</span> Opening <span class="c3">Rexi-IDE.dmg</span> …
-<span class="c4">✓</span> Launching Rexi IDE on ~/Downloads/multirepo
-
-<span class="c2">C:\multirepo ›</span> start.cmd --ide
-<span class="c1">▸</span> Launching <span class="c3">Rexi-IDE-Setup.exe</span> …
-<span class="c4">✓</span> Rexi IDE is starting</pre></div></section>
+<div class="term"><div class="bar"><i></i><i></i><i></i></div><pre><span class="c2">~ ›</span> bash ~/MobileHeal/desktop/install-mac.sh
+<span class="c3">▸</span> Checking Node.js
+<span class="c3">▸</span> Building Rexi IDE
+<span class="c3">▸</span> Installing to /Applications
+<span class="c4">✓</span> Launching Rexi IDE</pre></div></section>
 
 <h2>What's inside</h2><p class="sub">Everything you need to act on Autopilot fixes, next to your code.</p>
 <div class="grid">
@@ -66,16 +65,12 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   <div class="card" style="--k:#16a34a"><h3>Safe by default</h3><p>Never approves or pauses without your yes. Feedback is redacted. Releases still need a named approver.</p></div>
 </div>
 
-<h2>Launch with one command</h2><p class="sub">Run it from the project folder. It opens the Rexi IDE, or its installer the first time. On macOS it also starts the Rexi web portal.</p>
-<div class="os">
-  <div class="steps">
-    <div class="card"><div><h3>macOS</h3><p>In Terminal:<br><code>./start.command --ide</code></p><p style="margin-top:6px">Opens <b>Rexi IDE.app</b> if it's installed; otherwise opens <b>Rexi-IDE.dmg</b> and launches the app from it.</p></div></div>
-  </div>
-  <div class="steps">
-    <div class="card"><div><h3>Windows</h3><p>In Command Prompt or PowerShell:<br><code>start.cmd --ide</code></p><p style="margin-top:6px">Opens <b>Rexi IDE</b> if it's installed; otherwise runs <b>Rexi-IDE-Setup.exe</b>.</p></div></div>
-  </div>
-</div>
-<p class="sub" style="margin-top:14px">The script looks for the installer in <code>Downloads/mobiledemo</code>, <code>Downloads</code> and the project's <code>dist</code> folder. To use a different file, set <code>REXI_IDE_DMG</code> (macOS) or <code>REXI_IDE_EXE</code> (Windows) to its path.</p>
+<section class="one" id="one-cmd">
+  <h2>Install &amp; launch with one command</h2>
+  <p class="sub">Builds Rexi IDE from the GitHub repo, installs it and opens it. Needs Git and access to the repo; Node.js is installed if missing. Run it again any time to update.</p>
+  <div class="cmd"><b>macOS · Terminal</b><pre><code>git clone https://github.com/shreekrithi1/MobileHeal.git ~/MobileHeal 2&gt;/dev/null || git -C ~/MobileHeal pull; bash ~/MobileHeal/desktop/install-mac.sh</code></pre><button class="cp">Copy</button></div>
+  <div class="cmd"><b>Windows · PowerShell</b><pre><code>git clone https://github.com/shreekrithi1/MobileHeal.git $HOME\MobileHeal 2&gt;$null; git -C $HOME\MobileHeal pull; powershell -ExecutionPolicy Bypass -File $HOME\MobileHeal\desktop\install-windows.ps1</code></pre><button class="cp">Copy</button></div>
+</section>
 
 <p class="note">Rexi is a passion project. The terminal shown above is illustrative.</p>
 </div><script>
@@ -86,7 +81,7 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   const mac = document.getElementById("dl-mac"), win = document.getElementById("dl-win"), next = document.getElementById("next");
   const mine = os === "win" ? win : mac; mine.classList.add("me"); mine.parentNode.prepend(mine);
   const STEPS = {
-    mac: ["Rexi-IDE.dmg is downloading", ["Click the download in your browser (or open it from Downloads) to open the disk image.", "Drag <b>Rexi IDE</b> into <b>Applications</b>.", "Open Rexi IDE from Applications — next time, use “Open Rexi IDE” above."]],
+    mac: ["Rexi-IDE.dmg is downloading", ["Click the download in your browser (or open it from Downloads) to open the disk image.", "Drag <b>Rexi IDE</b> into <b>Applications</b>. First open: right-click it → <b>Open</b>.", "Open Rexi IDE from Applications — next time, use “Open Rexi IDE” above."]],
     win: ["Rexi-IDE-Setup.exe is downloading", ["Click the download in your browser (or open it from Downloads) to run the installer.", "If Windows asks, choose <b>Run</b> / <b>More info → Run anyway</b>.", "Rexi IDE opens when setup finishes — next time, use “Open Rexi IDE” above."]]
   };
   const show = (head, items, err) => { document.getElementById("next-h").textContent = head;
@@ -100,4 +95,4 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   document.getElementById("open-app").addEventListener("click", () => setTimeout(() => {
     if (document.hasFocus()) show("Rexi IDE didn't open", ["It may not be installed yet — download it above and run the installer.", "On macOS you can also open it from Applications; on Windows from the Start menu."], true); }, 1500));
 })();
-</script></body></html>
+</script><script>document.querySelectorAll('.cp').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(b.previousElementSibling.innerText);b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)})</script></body></html>
