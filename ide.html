@@ -69,6 +69,7 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   <h2>Install &amp; launch with one command</h2>
   <p class="sub">Builds Rexi IDE from the GitHub repo, installs it and opens it. Needs Git and access to the repo; Node.js is installed if missing. Run it again any time to update.</p>
   <div class="cmd"><b>macOS · Terminal</b><pre><code>git clone https://github.com/shreekrithi1/MobileHeal.git ~/MobileHeal 2&gt;/dev/null || git -C ~/MobileHeal pull; bash ~/MobileHeal/desktop/install-mac.sh</code></pre><button class="cp">Copy</button></div>
+  <p class="note" style="margin:6px 0 10px;font-size:12px;opacity:.8">Preview builds are not code-signed yet. The script below runs with <code>-ExecutionPolicy Bypass</code> for this one install only; review it first and check with IT before running.</p>
   <div class="cmd"><b>Windows · PowerShell</b><pre><code>git clone https://github.com/shreekrithi1/MobileHeal.git $HOME\MobileHeal 2&gt;$null; git -C $HOME\MobileHeal pull; powershell -ExecutionPolicy Bypass -File $HOME\MobileHeal\desktop\install-windows.ps1</code></pre><button class="cp">Copy</button></div>
 </section>
 
@@ -82,7 +83,7 @@ code{font:13.5px ui-monospace,Menlo,Consolas,monospace;background:color-mix(in s
   const mine = os === "win" ? win : mac; mine.classList.add("me"); mine.parentNode.prepend(mine);
   const STEPS = {
     mac: ["Rexi-IDE.dmg is downloading", ["Click the download in your browser (or open it from Downloads) to open the disk image.", "Drag <b>Rexi IDE</b> into <b>Applications</b>. First open: right-click it → <b>Open</b>.", "Open Rexi IDE from Applications — next time, use “Open Rexi IDE” above."]],
-    win: ["Rexi-IDE-Setup.exe is downloading", ["Click the download in your browser (or open it from Downloads) to run the installer.", "If Windows asks, choose <b>Run</b> / <b>More info → Run anyway</b>.", "Rexi IDE opens when setup finishes — next time, use “Open Rexi IDE” above."]]
+    win: ["Rexi-IDE-Setup.exe is downloading", ["Click the download in your browser (or open it from Downloads) to run the installer.", "This preview build is not code-signed yet, so Windows may show a SmartScreen warning. Only continue if you got the file from your Rexi team, and check with IT first.", "Rexi IDE opens when setup finishes — next time, use “Open Rexi IDE” above."]]
   };
   const show = (head, items, err) => { document.getElementById("next-h").textContent = head;
     document.getElementById("next-l").innerHTML = items.map(t => `<li>${t}</li>`).join(""); next.classList.toggle("err", !!err); next.hidden = false; };

@@ -1,1 +1,6 @@
 Rexi-IDE.dmg
+
+# Local drafts and private notes (not published)
+*.before-*
+prep.html
+demoaudit.html
