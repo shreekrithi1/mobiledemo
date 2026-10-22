@@ -54,8 +54,8 @@ The session is designed to be relaxed and forward-looking — it's an illustrati
 | 16 | Available on macOS, Windows, Chrome and in your IDE | 18:13 | 18:42 | 00:29 |
 | 17 | Key takeaways — what to remember | 18:42 | 19:36 | 00:53 |
 | 18 | Thank you, Mobile team | 19:36 | 20:05 | 00:29 |
-| 19 | Rexi 2.0 — Elsa is learning (first look) | 20:05 | 23:25 | 03:20 |
-| — | Q&A and discussion | 23:25 | 30:00 | 06:35 |
+| 19 | Rexi 2.0 — Elsa is learning (first look) | 20:05 | 23:11 | 03:06 |
+| — | Q&A and discussion | 23:11 | 30:00 | 06:49 |
 
 Mission control is presented live, so its time is an estimate (≈5 minutes); the on-screen "Demo ends in" timer counts the guided chapters only.
 
